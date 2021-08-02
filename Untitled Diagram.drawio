@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-02T07:50:38.553Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="4LakCDpeh9_9hfejYQGg" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-02T08:02:03.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="eDjwGegbFoiy0knP00up" version="14.8.3" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1117" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -136,14 +136,14 @@
             <mxPoint x="1099.997329842932" y="612.1800000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jonmC86fZcQmtuheV53x-1793" value="&lt;h1 style=&quot;font-size: 25px&quot;&gt;移动应用前置模式&lt;/h1&gt;&lt;p style=&quot;font-size: 18px&quot;&gt;银联和付款方APP后台交互，付款行内部进行扣款，由后台发送扣款信息到银联二维码处理系统，银联将根据结果进行资金清算&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="1320" y="200.5" width="290" height="170" as="geometry" />
+        <mxCell id="jonmC86fZcQmtuheV53x-1793" value="&lt;h1 style=&quot;font-size: 25px&quot;&gt;移动应用前置模式（本行可行）&lt;/h1&gt;&lt;p style=&quot;font-size: 18px&quot;&gt;银联和付款方APP后台交互，付款行内部进行扣款，由后台发送扣款信息到银联二维码处理系统，银联将根据结果进行资金清算&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1470" y="200.5" width="290" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="jonmC86fZcQmtuheV53x-1794" value="&lt;h1 style=&quot;font-size: 25px&quot;&gt;银行卡前置模式&lt;/h1&gt;&lt;p style=&quot;font-size: 18px&quot;&gt;银联和付款方APP后台交互，付款行内部进行扣款，由银联二维码系统替收款方或应用方发起一笔8583交易，经银联核心转接系统路由发给发卡行银行银行卡前置，随后银联二维码系统将8583交易处理结果通知应用方APP后台，银联将该8583交易纳入资金清算&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="1320" y="434.25" width="290" height="240.5" as="geometry" />
+        <mxCell id="jonmC86fZcQmtuheV53x-1794" value="&lt;h1 style=&quot;font-size: 25px&quot;&gt;银行卡前置模式（跨行必选）&lt;/h1&gt;&lt;p style=&quot;font-size: 18px&quot;&gt;银联和付款方APP后台交互，付款行内部进行扣款，由银联二维码系统替收款方或应用方发起一笔8583交易，经银联核心转接系统路由发给发卡行银行银行卡前置，随后银联二维码系统将8583交易处理结果通知应用方APP后台，银联将该8583交易纳入资金清算&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1470" y="434.25" width="290" height="240.5" as="geometry" />
         </mxCell>
         <mxCell id="jonmC86fZcQmtuheV53x-1801" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;fontSize=18;fillColor=#71E6F0;" parent="1" vertex="1">
-          <mxGeometry x="1270" y="190" width="20" height="470" as="geometry" />
+          <mxGeometry x="1420" y="190" width="20" height="470" as="geometry" />
         </mxCell>
         <mxCell id="jonmC86fZcQmtuheV53x-1802" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="680" y="190" width="40" height="20" as="geometry" />
@@ -183,6 +183,18 @@
             <mxPoint x="223" y="425.5" as="sourcePoint" />
             <mxPoint x="176" y="435" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="XpW8_SyGIJJUAxE8_dCc-1784" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;fontSize=18;fillColor=#71E6F0;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="190" width="20" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="XpW8_SyGIJJUAxE8_dCc-1786" value="含附加信息查询及应答" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="220.75" width="120" height="59.5" as="geometry" />
+        </mxCell>
+        <mxCell id="XpW8_SyGIJJUAxE8_dCc-1787" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;fontSize=18;fillColor=#71E6F0;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="449.5" width="20" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="XpW8_SyGIJJUAxE8_dCc-1788" value="含附加信息查询及应答" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="480.25" width="120" height="59.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
